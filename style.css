@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ main{
+    width: 100%;
+    height: 170vh;
+    background-color: hsl(318, 100%, 76%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+.card {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(318, 100%, 76%);
+    width: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #020202;
+}
+.jane {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    margin: 0 auto 10px;
+    display: block;
+}
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+hr {
+    margin: 10px 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
